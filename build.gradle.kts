@@ -5,7 +5,7 @@ import net.fabricmc.loom.task.RemapJarTask
 plugins {
     java
     id("com.teamresourceful.resourcefulgradle")
-    id("dev.architectury.loom") version "1.4-SNAPSHOT" apply false
+    id("dev.architectury.loom") version "1.6-SNAPSHOT" apply false
     id("architectury-plugin") version "3.4-SNAPSHOT" apply false
 }
 
@@ -92,8 +92,8 @@ resourcefulGradle {
             injectedValues.set(mapOf(
                 "version" to version,
                 "mc_version" to minecraftVersion,
-                "forge_version" to "20.2.56-beta",
-                "fabric_version" to "0.14.24",
+                "neoforge_version" to "20.5.3-beta",
+                "fabric_version" to "0.15.9",
                 "fabric_link" to fabricLink,
                 "forge_link" to forgeLink
             ))

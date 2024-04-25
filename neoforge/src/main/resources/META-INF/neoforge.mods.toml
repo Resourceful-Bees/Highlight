@@ -20,21 +20,21 @@ issueTrackerURL="https://github.com/Team-Resourceful/Highlight/issues"
 
 [[dependencies.highlight]]
     modId = "neoforge"
-    mandatory = true
-    versionRange = "[20.2,)"
+    type = "required"
+    versionRange = "[20.5,)"
     ordering = "NONE"
     side = "BOTH"
 
 [[dependencies.highlight]]
     modId = "minecraft"
-    mandatory = true
-    versionRange = "[1.20.2,)"
+    type = "required"
+    versionRange = "[1.20.5,)"
     ordering = "NONE"
     side = "BOTH"
 
 [[dependencies.highlight]]
     modId = "resourcefullib"
-    mandatory = true
+    type = "required"
     versionRange = "[1,)"
     ordering = "NONE"
     side = "BOTH"

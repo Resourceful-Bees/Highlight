@@ -56,7 +56,7 @@
         },
         {
           "name": "NeoForge Version",
-          "value": "${forge_version}"
+          "value": "${neoforge_version}"
         },
         {
           "name": "Fabric Version",
