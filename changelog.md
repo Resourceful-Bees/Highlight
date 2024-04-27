@@ -1,1 +1,1 @@
-1.20.5 Update
+- Fix version number in mod metadata

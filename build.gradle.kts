@@ -32,7 +32,7 @@ subprojects {
     loom.silentMojangMappingsLicense()
 
     repositories {
-        maven(url = "https://nexus.resourcefulbees.com/repository/maven-public/")
+        maven(url = "https://maven.teamresourceful.com/repository/maven-public/")
         maven(url = "https://maven.neoforged.net/releases/")
     }
 
