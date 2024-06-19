@@ -1,1 +1,1 @@
-- Fix version number in mod metadata
+- Update to 1.21
